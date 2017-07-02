@@ -1,0 +1,92 @@
+# # # # # # # # # # # # #
+#   K i k o - p l u s   #
+# # # # # # # # # # # # #
+
+# Basic
+name:               "dosuser's blog"
+
+author:
+  facebook:         daeyong.shin.96
+  youtubeUser:      #your-id
+  youtubeChannel:   #your-id
+  twitter:          #your-id
+  github:           dosuser
+  stackoverflow:    #your-id
+  quora:            #your-id
+  linkedin:         #your-id
+  pinterest:        #your-id
+  googlePlus:       #your-id
+  instagram:        dosuser
+  reddit:           #your-id
+  medium:           #your-id
+  tumblr:           #your-id
+  email:            dosuser@naver.com
+
+copyright:
+  year:             2017
+  name:             SHIN DAE YONG
+
+# Google-analytics
+google-analytics:
+  id:               "UA-43176485-2"
+  
+facebook:
+  appId: 303544336735645
+# Disqus
+disqus:
+  id:               "kiko-plus"
+
+# URL
+#url:                "https://dosuser.github.io" # the base hostname & protocol for your site
+url:                "http://localhost:4000" # use this url when you develop
+baseurl:            # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Seoul
+permalink:           /:year/:month/:title
+gems:
+  - jekyll-paginate
+
+# Pagination
+paginate:           10
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  input:            GFM
+
+# Navigation
+nav:
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+  - name:           "Tags"
+    url:            "/tags"
+  - name:           "Github"
+    url:            "https://github.com/dosuser"
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+
+exclude:            [vendor]

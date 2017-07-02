@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<header>
+  <div class="header-small">
+    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+  </div>
+</header>
+<div class="post">
+  <div class="post-title">{{ page.title }}</div>
+  <div><span class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </span>
+  <span class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}&amp;via={{ site.author.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </span>
+  </div>
+  <div class="post-tag">
+    <ul>
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          <span>{{ tag }}</span>
+        </a>
+      </li>
+      {% unless forloop.last %}{% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  {{ content }}
+
+  {% if site.facebook.appId %}
+    {% include facebook_comment.html %}
+  {% endif %}
+	
+</div>
