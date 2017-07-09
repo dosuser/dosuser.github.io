@@ -3,129 +3,42 @@ title: About
 permalink: /about/
 ---
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
+# 기초
+보통의 가정에서 자란 사람들은 이해 하기 어려운 환경에서 자랐다.
+나 처럼 자라는 아이가 더 이상 없는 세상이 되기를 바라면서 살고 있다.
 
-## Features
+IT 덕분에 가난에서는 벗어날 수 있었기에 감사한다.
+이것이 다른 사람들에게도 적용 될 수 있기를 희망하지만 오히려 가난을 부추기는 역활을 하고 있는 한국의 현실이 화가난다.
 
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
+인간의 욕심과 개인의 이기심에 매일 살의를 느낀다.
+그리고 스스로 매일 반성과 후회를 하며 산다.
 
+# 종교
+종교는 없다.
+다만 신이 진짜 있다면, 그리고 그 신을 죽일 수 있다면 내 모든 것을 걸고 죽이겠다.
+신이 있다고 하기에는 너무 많은 사람들이 힘들게 살아간다.
 
-## Installation
+# 다른 사람과
+다른 사람을 대하는게 매우 어렵다. 가볍게 만나는 사람과는 크게 문제가 없는데 가까운 사람과 문제가 있다.
+상대방이 잘못되고 있을때 분명히 말을 해주는 상황인데 상대와의 온도차, 내 말하는 방식의 문제 덕분에 상황은 항상 꼬인다.
+표현은 '생각하지 않고 말한다'라는 말을 자주 들을 정도로 직설적이다.
+가급적 본질을 이야기 하고 싶지만 아는것이 부족해서 말이 나오지 않을때가 많다.
+나를 욕하는 것도 좋다. 하지만 당당히 앞에서 욕했으면 좋겠다.
 
-#### Method 1: new master's repository (The Best)
+# 싫어하는것
+첫째. 사이비
+사이비 종교, 유사과학 등을 사이비라고 할 때.
+동양의 혹은 일부 서양의 증명을 필요로 하지 않는 형이상학적인 관념들이 만들어낸 신념이 문제라고 본다.
+가난한 사람들일 수록 이런것들에 얽매이고 사이비를 이용하는 사람들을 보면 가난을 만들어 내는 시스템 같아서 화가난다.
+"이것만 먹으면 건강해져요~~" 등의 마케팅 전반을 싫어한다.
 
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
-2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
-3. Access your new blog via [https://username.github.io](https://username.github.io).
-4. [See configuration](#configuration).
+둘째. "대충", 목적없이 반성없이 사는 삶
+혼자 그렇게 살면 괜찮은데 독 버섯 처럼 그 분위기를 퍼트린다.
+그리고 이런 류의 삶을 사는 사람들중 꽤 많은 비율이 타인에 대한 배려가 없다.
 
-#### Method 2: gh-pages in existing repository
-
-1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
-3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
-4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
-5. Push new branch to remote `git push gh-pages`.
-6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
-
-#### Method 3: Run it locally
-
-1. Download [zip](https://github.com/AWEEKJ/Kiko-plus/archive/master.zip) or clone it `git clone https://github.com/AWEEKJ/Kiko-plus`.
-2. Go inside folder and run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
-
-
-## Configuration
-
-All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
-
-### Basic
-
-- Config your blog name.
-
-```yml
-name: <blog-name>
-```
-
-- These configuration in `author:` is for links to icons in footer. If you want to add more link icons, modify `_includes/footer.html` file.
-
-```yml
-author:
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
-```
-
-- Change copyright year and name in footer.
-
-```yml
-copyright:
-  year:             2017
-  name:             Kiko
-```
-
-### Google analytics
-
-- Change this to your Google Analytic ID.
-
-```yml
-google-analytics:
-  id:               "your-id"
-```
-
-### Disqus
-
-- Change this to your Disqus short name.
-
-```yml
-disqus:
-  id:               "your-id"
-```
-
-### URL
-
-- Config your domain.
-
-```yml
-url: "https://<your-name>.github.io"
-```
-
-- **NOTE** When if running locally, change url to 
-
-```yml
-url: "https://localhost:4000"
-```
-
-- Change this to your branch name where _gh-pages_ resides. 
-- **NOTE** apply only if you used __Method 2__ for installation.
-
-```yml
-baseurl: "/<branch-name>"
-```
-
-## Rakefile Usage
-
-```bash
-# Create new post
-$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
-
-# Create new draft post
-$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
-
-# Install Jekyll Plugins. Do before running in local.
-$ rake geminstall
-
-# Run in Local
-$ rake preview
-```
-
-## License
-
-This theme is released under MIT License.
+# 좋아하는것
+좋아 하는 일부 음악들, 자우림, 시이나링고, 크렌베리스, 카펜터즈, 카디건즈, 비틀즈, 아바, 노다웃, 오지은, 공일오비, 김광석
+자전거, 첫 월급으로 산 스트라이다
+컴퓨터
+인터넷
+좋아하는 몇몇 사람들, 그리고 애증의 몇몇 사람들
