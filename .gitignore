@@ -3,3 +3,6 @@ _site
 Gemfile.lock
 _drafts
 .jsbeautifyrc
+/.buildpath
+/.project
+.settings
