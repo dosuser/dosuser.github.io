@@ -47,6 +47,7 @@ timezone:           Asia/Seoul
 permalink:           /:year/:month/:title
 gems:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Pagination
 paginate:           10
