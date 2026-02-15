@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "JavaAssist를 이용한 Dynamic Proxy 예제"
-category: java
-keywords: 
-tags: 
-published: 2013-05-13T18:42:04+09:00
-modified: 2013-05-13T18:42:04+09:00
+title: JavaAssist를 이용한 Dynamic Proxy 예제
+date: 2013-05-13
+author: SHIN DAE YONG
 ---
 JavaAssist를 이용한 Dynamic Proxy 예제
 

@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "가족의 초상, 독후감"
-category: blog
-keywords: 
-tags: 
-published: 2015-08-01T15:22:30+09:00
-modified: 2015-08-01T15:22:30+09:00
+title: 가족의 초상, 독후감
+date: 2015-08-01
+author: SHIN DAE YONG
 ---
 가족의 초상
 

@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "대학졸업하고 꼭 알아야 할것.... 잊으면 안돼...."
-category: memo
-keywords: 
-tags: 
-published: 2009-01-15T15:12:22+09:00
-modified: 2009-11-20T12:14:26+09:00
+title: 대학졸업하고 꼭 알아야 할것.... 잊으면 안돼....
+date: 2009-01-15
+author: SHIN DAE YONG
 ---
 <font size="3"><font color="#000000"><font face="맑은 고딕"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">데이터 베이스는 많은 데이터들 사이에서 특정 데이터를 가져오고 데이터를 추가</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">, </span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">삭제 해야한다</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">. </span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">그런데 데이터 중복 등이 생기면 데이터의 무결성이 깨지게 된다</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">. </span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">이것이 데이터 아노말리다</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">. primary</span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">키는</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt"> not null</span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">에</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt"> unique</span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">다</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">. </span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">또한 인덱스가 걸려 있다</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">. </span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">키로 검색하면빠르다</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">. </span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">문자열 검색을 하는</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt"> like</span></span></span><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">는 속도가 매우 느리다</span></span><span lang="EN-US"><span style="FONT-SIZE: 10pt"><span style="FONT-SIZE: 9pt">.</span></span><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><p></p></span></font></font></font>
 

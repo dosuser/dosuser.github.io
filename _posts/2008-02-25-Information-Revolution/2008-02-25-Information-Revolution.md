@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Information R/evolution"
-category: tutoring
-keywords: 
-tags: 
-published: 2008-02-25T09:23:25+09:00
-modified: 2008-03-01T02:20:49+09:00
+title: Information R/evolution
+date: 2008-02-25
+author: SHIN DAE YONG
 ---
 
 자료 저장의 변화를 보여주는 동영상

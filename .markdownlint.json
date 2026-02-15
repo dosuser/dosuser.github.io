@@ -1,0 +1,11 @@
+{
+  "extends": "markdownlint-config-standard",
+  "rules": {
+    "line-length": false,
+    "no-multiple-blanks": {
+      "maximum": 2
+    },
+    "heading-increment": false,
+    "emphasis-style": "consistent"
+  }
+}

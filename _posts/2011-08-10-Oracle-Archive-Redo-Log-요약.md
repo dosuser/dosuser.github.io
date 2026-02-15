@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Oracle Archive Redo Log 요약
-category: 프로그래밍일반
-keywords: archive, oracle, redo, redolog, 오라클
-tags: archive oracle redo redolog 오라클
-published: 2011-08-10T10:57:17+09:00
-modified: 2011-10-10T09:45:33+09:00
+date: 2011-08-10
+tags: ["archive", "oracle", "redo", "redolog", "오라클"]
+author: SHIN DAE YONG
 ---
 **Archive Redo Log 요약**
 

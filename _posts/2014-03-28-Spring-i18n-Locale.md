@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Spring i18n, Locale 정리"
-category: draft
-keywords: [java]
-tags: 
-published: 2014-03-28T14:48:31+09:00
-modified: 2014-03-28T14:48:31+09:00
+title: Spring i18n, Locale 정리
+date: 2014-03-28
+author: SHIN DAE YONG
 ---
 &nbsp;
 

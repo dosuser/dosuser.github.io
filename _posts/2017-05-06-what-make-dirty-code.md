@@ -1,13 +1,9 @@
 ---
 layout: post
-title: "\"잘못짠 코드\", 어떤게 욕나오는 더러운 코드를 만드는가. 첫째"
-categories: blog
-tags: [sample post, code, highlighting]
-image:
-  feature: mountains.jpg
-  teaser: mountains-teaser.jpg
-  credit: Death to Stock Photo
-  creditlink: ""
+title: \"잘못짠 코드\", 어떤게 욕나오는 더러운 코드를 만드는가. 첫째
+date: 2017-05-06
+tags: ["sample post", "code", "highlighting"]
+author: SHIN DAE YONG
 ---
 
 그동안 코딩을 하면서, 특히나 남이 일부 작성한 코드를 수정하면서 기존에 잘못짠 코드 때문에 내 인생을 소비한 시간이 정말 길다.

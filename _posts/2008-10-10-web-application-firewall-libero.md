@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "웹 어플리케이션 방화벽 Libero"
-category: old_portfolio
-keywords: libero, modsecurity, waf, web, web-application-firewall, web-security, 웹, 웹보안
-tags: libero modsecurity waf web web-application-firewall web-security 웹 웹보안
-published: 2008-10-10T07:34:15+09:00
-modified: 2008-10-10T07:36:36+09:00
+title: 웹 어플리케이션 방화벽 Libero
+date: 2008-10-10
+tags: ["libero", "modsecurity", "waf", "web", "web-application-firewall", "web-security", "웹", "웹보안"]
+author: SHIN DAE YONG
 ---
 흠... 대학교 3학년때 만든 졸업 프로젝트(?), 졸작을 1년 일찍했다.  
   

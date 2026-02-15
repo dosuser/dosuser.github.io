@@ -1,10 +1,9 @@
 ---
-title: "Using custom font in java"
-category: memo
-keywords: tip, java
-tags: tip, java
-published: 2014-12-23T15:01:27+09:00
-modified: 2014-12-23T15:01:38+09:00
+layout: post
+title: Using custom font in java
+date: 2014-12-23
+tags: ["tip", "java"]
+author: SHIN DAE YONG
 ---
 자바에서 폰트를 사용할때 보통 폰트를 로컬에 설치해서 사용하는 방법 이외에 동적으로 로드해서 사용하는 방법이 있다.
 

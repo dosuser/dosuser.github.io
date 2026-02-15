@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 웹 해킹툴 - dosuserhack4
-category: 작업물들
-keywords: 
-tags: 
-published: 2010-09-18T03:14:06+09:00
-modified: 2010-09-18T03:14:13+09:00
+date: 2010-09-18
+author: SHIN DAE YONG
 ---
 dosuserhack1의 정신을 이어받아  
   

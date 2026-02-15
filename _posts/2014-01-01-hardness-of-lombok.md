@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "lombok을 쓰기 시작하면서...."
-category: blog
-keywords: [java]
-tags: 
-published: 2014-01-01T17:25:25+09:00
-modified: 2014-01-01T17:25:46+09:00
+title: lombok을 쓰기 시작하면서....
+date: 2014-01-01
+author: SHIN DAE YONG
 ---
 lombok ([http://projectlombok.org/](http://projectlombok.org/))&nbsp;을 쓰기시작한지 1주일이 되었습니다.&nbsp;
 

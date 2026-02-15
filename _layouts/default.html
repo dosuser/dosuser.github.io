@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 {% include head.html %}
 <body>
-  <div class="content-container">
-    {{ content }}
+  {% include header.html %}
+  
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
 
-    {% include footer.html %}
-  </div>
+  {% include footer.html %}
+
+  <!-- Smooth scroll behavior for modern browsers -->
+  <script>
+    document.documentElement.style.scrollBehavior = 'smooth';
+  </script>
 </body>
 </html>

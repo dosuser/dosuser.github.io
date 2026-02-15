@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "select2와 jquery ui modal 동시에 사용했을때"
-category: memo
-keywords: [java, tip]
-tags: [java, tip]
-published: 2014-09-28T17:42:12+09:00
-modified: 2014-09-28T17:42:12+09:00
+title: select2와 jquery ui modal 동시에 사용했을때
+date: 2014-09-28
+tags: ["java", "tip"]
+author: SHIN DAE YONG
 ---
 
 select2 와 jquery ui model을 동시에 사용하면서&nbsp;

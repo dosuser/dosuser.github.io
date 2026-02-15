@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Bot saves princess 해석"
-category: memo
-keywords: 
-tags: 
-published: 2016-06-19T00:30:54+09:00
-modified: 2016-06-19T00:30:54+09:00
+title: Bot saves princess 해석
+date: 2016-06-19
+author: SHIN DAE YONG
 ---
 ## Bot saves princess
 

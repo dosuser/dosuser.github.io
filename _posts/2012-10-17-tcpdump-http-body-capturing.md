@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "tcpdump http body 본문 캡쳐 하기"
-category: memo
-keywords: 
-tags: 
-published: 2012-10-17T03:12:27+09:00
-modified: 2012-10-17T03:47:38+09:00
+title: tcpdump http body 본문 캡쳐 하기
+date: 2012-10-17
+author: SHIN DAE YONG
 ---
 tcpdump를 이용하여 http 본문 메시지를 보고 싶을 때&nbsp;
 

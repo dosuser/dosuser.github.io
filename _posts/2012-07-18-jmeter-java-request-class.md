@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "jmeter java request 클래스 쉽게 만들기"
-category: blog
-keywords: 
-tags: 
-published: 2012-07-18T13:08:34+09:00
-modified: 2012-07-18T13:08:38+09:00
+title: jmeter java request 클래스 쉽게 만들기
+date: 2012-07-18
+author: SHIN DAE YONG
 ---
 Jmeter를 이용하여 성능 테스트를 할 때,&nbsp;
 

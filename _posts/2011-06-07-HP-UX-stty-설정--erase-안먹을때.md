@@ -1,10 +1,8 @@
 ---
+layout: post
 title: HP-UX stty 설정 , erase 안먹을때
-category: Linux
-keywords: 
-tags: 
-published: 2011-06-07T19:18:09+09:00
-modified: 2012-03-07T16:24:47+09:00
+date: 2011-06-07
+author: SHIN DAE YONG
 ---
 간혹 쉘에서 @를 입력하면 입력하던 라인의 내용이 지워져서 @를 입력하지 못하는 경우가 있다.&nbsp;  
   

@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "ReentrantLock 사용 예"
-category: 대용이의 강의
-keywords: code, java, lock, metv, reentrantlock, skb, transient
-tags: code java lock metv reentrantlock skb transient
-published: 2011-04-27T11:20:14+09:00
-modified: 2011-04-27T11:20:14+09:00
+title: ReentrantLock 사용 예
+date: 2011-04-27
+tags: ["code", "java", "lock", "metv", "reentrantlock", "skb", "transient"]
+author: SHIN DAE YONG
 ---
   
 참고  

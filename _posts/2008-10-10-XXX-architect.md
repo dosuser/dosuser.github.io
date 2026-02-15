@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "아뿅뿅뿅 건축 사무소"
-category: old_portfolio
-keywords: 
-tags: 
-published: 2008-10-10T07:12:40+09:00
-modified: 2008-10-10T07:12:46+09:00
+title: 아뿅뿅뿅 건축 사무소
+date: 2008-10-10
+author: SHIN DAE YONG
 ---
   
 정팀장밑에서 일하면서 관련된 아뿅뿅뿅 건축 사무도 그쪽 분들이 잘 대우해주셔서 사건 이후에도 계속 왕래가 있었다.  

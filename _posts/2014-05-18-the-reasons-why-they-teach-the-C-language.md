@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "C언어를 아직도 가르치는 이유"
-category: blog
-keywords: [cs]
-tags: [cs]
-published: 2014-05-18T01:13:23+09:00
-modified: 2014-09-01T02:34:12+09:00
+title: C언어를 아직도 가르치는 이유
+date: 2014-05-18
+tags: ["cs"]
+author: SHIN DAE YONG
 ---
 생활 코딩에 왜 40년된 C언어를 아직도 가르치는지에 대한 질문에 대한 답글
 

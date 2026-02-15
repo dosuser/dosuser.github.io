@@ -1,67 +1,55 @@
-<!-- Documents about icons are here: http://fontawesome.io/icons/ -->
-<div class="footer">
-  <hr />
-  <div class="footer-link">
-    {% if site.author.facebook %}
-    <a href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.youtubeUser %}
-    <a href="https://www.youtube.com/user/{{ site.author.youtubeUser }}"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.youtubeChannel %}
-    <a href="https://www.youtube.com/channel/{{ site.author.youtubeChannel }}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-    {% endif %}
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>{{ site.title }}</h3>
+        <p>{{ site.description }}</p>
+      </div>
 
-    {% if site.author.twitter %}
-    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    {% endif %}
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about' | relative_url }}">About</a></li>
+          <li><a href="{{ '/archive' | relative_url }}">Archive</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a></li>
+        </ul>
+      </div>
 
-    {% if site.author.github %}
-    <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.stackoverflow %}
-    <a href="http://stackoverflow.com/users/{{ site.author.stackoverflow }}"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.quora %}
-    <a href="https://www.quora.com/profile/{{ site.author.quora }}"><i class="fa fa-quora" aria-hidden="true"></i></a>
-    {% endif %}
+      <div class="footer-section">
+        <h3>Follow</h3>
+        <div class="social-links">
+          {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}" title="GitHub" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
 
-    {% if site.author.linkedin %}
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.pinterest %}
-    <a href="https://www.pinterest.com/{{ site.author.pinterest }}"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.googlePlus %}
-    <a href="https://plus.google.com/{{ site.author.googlePlus }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.instagram %}
-    <a href="https://www.instagram.com/{{ site.author.instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    {% endif %}
-	
-	{% if site.author.reddit %}
-    <a href="https://www.reddit.com/user/{{ site.author.reddit }}"><i class="fa fa-reddit" aria-hidden="true"></i></a>
-    {% endif %}
+          {% if site.author.instagram %}
+          <a href="https://www.instagram.com/{{ site.author.instagram }}" title="Instagram" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+          </a>
+          {% endif %}
 
-    {% if site.author.medium %}
-    <a href="https://medium.com/@{{ site.author.medium }}"><i class="fa fa-medium" aria-hidden="true"></i></a>
-    {% endif %}
+          {% if site.author.facebook %}
+          <a href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook" target="_blank" rel="noopener">
+            <i class="fab fa-facebook"></i>
+          </a>
+          {% endif %}
 
-    {% if site.author.tumblr %}
-    <a href="https://{{ site.author.tumblr }}.tumblr.com"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
-    {% endif %}
+          {% if site.author.email %}
+          <a href="mailto:{{ site.author.email }}" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
 
-    {% if site.author.email %}
-    <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-    {% endif %}
-
+    <div class="footer-bottom">
+      <p>&copy; {{ site.copyright.year }} <a href="{{ '/' | relative_url }}">{{ site.copyright.name }}</a>. All rights reserved.</p>
+      <p><a href="https://github.com">Powered by GitHub Pages & Jekyll</a></p>
+    </div>
   </div>
-  © {{ site.copyright.year }} {{ site.copyright.name }}. All rights reserved.
-</div>
+</footer>
+

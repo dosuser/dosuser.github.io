@@ -1,11 +1,8 @@
 ---
 layout: post
-category: memo
-title: "빨리 암기 하는 방법"
-keywords: 
-tags: 
-published: 2016-04-21T21:41:23+09:00
-modified: 2016-04-21T21:41:23+09:00
+title: 빨리 암기 하는 방법
+date: 2016-04-21
+author: SHIN DAE YONG
 ---
 [http://www.lifehack.org/articles/productivity/how-memorize-things-quicker-than-other-people.html](http://www.lifehack.org/articles/productivity/how-memorize-things-quicker-than-other-people.html)
 

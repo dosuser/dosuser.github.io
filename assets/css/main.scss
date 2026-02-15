@@ -1,8 +1,10 @@
 ---
 sitemap: false
 ---
-@import "color";
+
+// Import partials in correct order
 @import "variables";
 @import "typography";
+@import "color";
 @import "highlighter";
 @import "site";

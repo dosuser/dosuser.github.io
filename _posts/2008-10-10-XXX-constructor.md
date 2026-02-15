@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 우뿅건설 - 타사이트랑 똑같이 만들어 달라는 정말 말도 안되는 프로젝트
-category: old_portfolio
-keywords: 
-tags: 
-published: 2008-10-10T04:53:56+09:00
-modified: 2008-10-10T07:12:49+09:00
+date: 2008-10-10
+author: SHIN DAE YONG
 ---
 ![](/attachments/2008-10-10-woowon22.png)  
   

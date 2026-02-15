@@ -1,11 +1,8 @@
 ---
 layout: post
 title: IIS의 Service Unavailable 에러 해결
-category: 팁
-keywords: 
-tags: 
-published: 2010-03-25T13:12:36+09:00
-modified: 2010-03-25T13:12:56+09:00
+date: 2010-03-25
+author: SHIN DAE YONG
 ---
   
 
