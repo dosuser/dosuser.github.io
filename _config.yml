@@ -1,86 +1,56 @@
-# # # # # # # # # # # # # # # # # # # #
-#   D o s u s e r ' s   B l o g     #
-# # # # # # # # # # # # # # # # # # # #
+lang: ko-KR
 
-# Site Configuration
-title:              "dosuser's blog"
-description:        "Personal blog about development, spring, and distributed storage"
-url:                "https://dosuser.github.io"
-baseurl:            ""
-logo:               "/assets/images/logo.png"
+# Theme
+# if your site is deployed on https://<username>.github.io, leave `baseurl` blank.
+url: "https://dosuser.github.io"
+baseurl: ""
 
-# Author Information
-author:
-  name:             "SHIN DAE YONG"
-  email:            dosuser@naver.com
-  github:           dosuser
-  instagram:        dosuser
-  facebook:         daeyong.shin.96
+theme: jekyll-theme-chirpy
 
-# Copyright
-copyright:
-  year:             2026
-  name:             "SHIN DAE YONG"
+title: dosuser's blog
 
-# Timezone
-timezone:           "Asia/Seoul"
+tagline: Personal blog about development, spring, and distributed storage
 
-# Markdown
-markdown:           kramdown
+description: >-
+  개발, 스프링, 분산 스토리지에 대해 기록하는 개인 블로그.
+
+timezone: Asia/Seoul
+
+github:
+  username: dosuser
+
+social:
+  name: SHIN DAE YONG
+  email: dosuser@naver.com
+  links:
+    - https://github.com/dosuser
+    - https://www.instagram.com/dosuser
+    - https://www.facebook.com/daeyong.shin.96
+
+avatar: /assets/images/logo.png
+
+# Site behavior
+paginate: 10
+
+theme_mode: dark
+
+# Build settings
+markdown: kramdown
 kramdown:
-  input:            GFM
+  input: GFM
   syntax_highlighter: rouge
 
-# Permalink Structure
-permalink:          "/:year/:month/:title/"
-
-# Pagination (GitHub Pages compatible)
-paginate:           10
-paginate_path:      "/page:num/"
-
-# Plugins
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
 
-# Build Settings
-sass:
-  style:            compressed
-  load_paths:
-    - _sass
-
-# Collections
-collections:
-  - posts
-
-# Defaults
-defaults:
-  - scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  - scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-      author:       "SHIN DAE YONG"
-
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor/
-  - .sass-cache/
-  - .jekyll-cache/
-  - node_modules/
-  - package.json
-  - package-lock.json
-
-# Include in processing
-include:
-  - _redirects
-  - .htaccess
+  - vendor
+  - node_modules
+  - .sass-cache
+  - .jekyll-cache
+  - .bundle
+  - README.md

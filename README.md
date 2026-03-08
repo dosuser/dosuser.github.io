@@ -1,81 +1,18 @@
-# dosuser's blog
+# dosuser.github.io
 
-A personal blog about development, Spring framework, and distributed storage systems.
+`jekyll-theme-chirpy` 테마를 적용한 개인 블로그 저장소입니다.
 
-## Features
-
-- **Jekyll 4.x + GitHub Pages**: Modern Jekyll setup with latest GitHub Pages compatibility
-- **Responsive Design**: Mobile-first approach
-- **SEO Optimized**: Jekyll-seo-tag integration
-- **Sitemap & RSS**: Automatic sitemap and RSS feed generation
-- **Code Highlighting**: Syntax highlighting with Rouge
-- **Pagination**: Jekyll Paginate v2 support
-
-## Quick Start
-
-### Prerequisites
-
-- Ruby 3.0 or higher
-- Bundler
-
-### Installation
+## 로컬 실행
 
 ```bash
-# Install dependencies
 bundle install
-
-# Serve locally
-bundle exec jekyll serve
-
-# Visit http://localhost:4000
+bundle exec jekyll s
 ```
 
-## Building for GitHub Pages
+브라우저에서 `http://127.0.0.1:4000` 접속.
 
-```bash
-# Build static site
-bundle exec jekyll build
+## 주요 설정
 
-# Output is in _site/ directory
-```
-
-## Project Structure
-
-```
-.
-├── _config.yml           # Site configuration
-├── _includes/            # Reusable HTML components
-├── _layouts/             # Page layouts
-├── _posts/               # Blog posts
-├── _sass/                # Stylesheets
-├── assets/               # Images, CSS
-├── index.html            # Home page
-├── about.md              # About page
-├── archive/              # Post archive
-├── tags/                 # Tag pages
-└── feed.xml              # RSS feed
-```
-
-## Topics
-
-- Spring Framework
-- Distributed Storage Systems
-- Web Development
-- System Administration
-- Personal Diary
-
-## Configuration
-
-Edit `_config.yml` to customize:
-- Site title and description
-- Author information
-- Social media links
-- Plugins and build settings
-
-## Deployment
-
-This site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
-
-## License
-
-See [LICENSE.md](LICENSE.md) for details.
+- 테마: `jekyll-theme-chirpy`
+- 설정 파일: `_config.yml`
+- 탭 페이지: `tabs/`
