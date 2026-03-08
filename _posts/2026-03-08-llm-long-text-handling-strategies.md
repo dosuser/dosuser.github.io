@@ -384,9 +384,117 @@ query_engine = index.as_query_engine(
 
 최근에는 의미 기반 청킹(Semantic Chunking)과 리랭킹(Reranking)을 결합한 하이브리드 접근이 주목받고 있으며, RAG(Retrieval-Augmented Generation) 시스템에서 필수적인 기술로 자리잡고 있다.
 
+## 참고 논문
+
+### 1. Attention is All You Need (2017)
+**저자**: Ashish Vaswani, Noam Shazeer, Niki Parmar, et al.  
+**링크**: [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)  
+**출판**: NeurIPS 2017
+
+Transformer 아키텍처의 기본이 되는 논문. Self-attention 메커니즘을 제안했으나, 시퀀스 길이에 대해 O(n²) 복잡도를 가지는 한계가 있음.
+
+**핵심 내용:**
+- Self-attention 메커니즘 도입
+- RNN/CNN 없이 순수 어텐션만으로 구성
+- 하지만 긴 시퀀스 처리에는 메모리와 연산량이 제곱으로 증가하는 문제
+
+### 2. BERT: Pre-training of Deep Bidirectional Transformers (2018)
+**저자**: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova  
+**링크**: [arXiv:1810.04805](https://arxiv.org/abs/1810.04805)  
+**출판**: NAACL 2019
+
+양방향 Transformer 기반 사전학습 모델. 최대 512 토큰까지만 처리 가능하여 긴 문서 처리에 제한이 있었고, 이것이 Longformer 등의 연구 동기가 됨.
+
+**핵심 내용:**
+- 양방향 컨텍스트 학습
+- MLM(Masked Language Model) 사전학습
+- 하지만 512 토큰 제한으로 긴 문서 처리 어려움
+
+### 3. Longformer: The Long-Document Transformer (2020)
+**저자**: Iz Beltagy, Matthew E. Peters, Arman Cohan  
+**링크**: [arXiv:2004.05150](https://arxiv.org/abs/2004.05150)  
+**출판**: (포함된 내용 없음, arXiv 프리프린트)
+
+**복잡도**: O(n) (선형)
+
+Sliding window attention을 사용하여 긴 문서 처리를 위한 선형 복잡도의 어텐션 메커니즘 제안. 수천 개의 토큰을 처리 가능.
+
+**핵심 기법:**
+- **Windowed attention**: 로컬 윈도우 내에서만 어텐션 계산
+- **Global attention**: 특정 토큰(CLS 등)은 전체 시퀀스를 참조
+- **Dilated sliding window**: 윈도우 간격을 두어 더 넓은 범위 커버
+
+**장점:**
+- 기존 Transformer 대비 8배 긴 시퀀스 처리
+- WikiHop, TriviaQA에서 SOTA 달성
+- 문서 요약에 강점 (LED 모델)
+
+### 4. Big Bird: Transformers for Longer Sequences (2020)
+**저자**: Manzil Zaheer, Guru Guruganesh, Avinava Dubey, et al.  
+**링크**: [arXiv:2007.14062](https://arxiv.org/abs/2007.14062)  
+**출판**: NeurIPS 2020
+
+**복잡도**: O(n) (선형)
+
+희소 어텐션 패턴을 이론적으로 분석하고, Turing-complete하면서도 선형 복잡도를 가지는 모델 제안.
+
+**핵심 기법:**
+- **Random attention**: 무작위 토큰들과 어텐션
+- **Window attention**: 로컬 윈도우 어텐션  
+- **Global tokens**: 전체를 보는 특수 토큰 (CLS 등)
+
+**이론적 기여:**
+- Sparse attention이 full attention의 universal approximator임을 증명
+- O(1) global tokens의 중요성 수학적으로 규명
+
+**장점:**
+- 질의응답과 요약 태스크에서 큰 성능 향상
+- 유전체학(genomics) 데이터 분석에도 응용
+
+### 5. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)
+**저자**: Patrick Lewis, Ethan Perez, et al. (Facebook AI)  
+**링크**: [arXiv:2005.11401](https://arxiv.org/abs/2005.11401)  
+**출판**: NeurIPS 2020
+
+긴 문서를 직접 처리하는 대신, 관련 부분을 검색하여 생성하는 RAG 패러다임 도입. 현재 실무에서 가장 널리 사용되는 접근법 중 하나.
+
+**핵심 개념:**
+- **Parametric memory**: 사전학습된 seq2seq 모델
+- **Non-parametric memory**: Wikipedia 등의 검색 가능한 벡터 인덱스
+- **Neural retriever**: DPR(Dense Passage Retrieval) 사용
+
+**두 가지 방식:**
+- **RAG-Sequence**: 전체 생성에 동일한 문서 사용
+- **RAG-Token**: 토큰마다 다른 문서 참조 가능
+
+**장점:**
+- Open-domain QA에서 SOTA
+- Parametric 모델 대비 더 구체적이고 사실적인 답변 생성
+- 지식 업데이트가 용이 (모델 재학습 불필요)
+
+**실무 영향:**
+- LangChain, LlamaIndex 등 프레임워크의 이론적 기반
+- Contextual Compression, Reranking의 기초
+
+### 6. Lost in the Middle: How Language Models Use Long Contexts (2023)
+**저자**: Nelson F. Liu, Kevin Lin, John Hewitt, et al.  
+**링크**: [arXiv:2307.03172](https://arxiv.org/abs/2307.03172)
+
+멀티-document QA에서 관련 정보의 위치가 모델 성능에 미치는 영향 연구. 중간 부분의 정보는 잘 활용하지 못하는 "Lost in the Middle" 현상 발견.
+
+**핵심 발견:**
+- 문서 앞부분과 끝부분의 정보는 잘 활용
+- 중간 부분의 정보는 성능 저하
+- Reranking의 중요성 재확인
+
 ## 참고 자료
 
+### 프레임워크 & 라이브러리
 - [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
 - [LlamaIndex Documentation](https://docs.llamaindex.ai/)
 - [Cohere Rerank API](https://docs.cohere.com/docs/rerank-2)
-- [Longformer Paper](https://arxiv.org/abs/2004.05150)
+- [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/)
+
+### 추가 논문
+- [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) - 효율적인 Transformer 아키텍처 전반적 서베이
+- [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451) - LSH attention을 사용한 효율적 Transformer
