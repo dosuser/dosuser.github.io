@@ -34,19 +34,16 @@ kramdown:
 # Permalink Structure
 permalink:          "/:year/:month/:title/"
 
-# Pagination
-pagination:
-  enabled:          true
-  per_page:         10
-  permalink:        "/page:num/"
-  title:            ":title - Page :num"
+# Pagination (GitHub Pages compatible)
+paginate:           10
+paginate_path:      "/page:num/"
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 # Build Settings
 sass:
