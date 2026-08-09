@@ -1,0 +1,3 @@
+pack.name=Starter Bedrock Add-On RP
+pack.description=Resource pack for the TypeScript starter add-on.
+entity.starter:k_follow_robot.name=K Follow Robot

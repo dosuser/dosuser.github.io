@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Starter Bedrock Add-On RP",
+    "description": "Resource pack for the TypeScript starter add-on.",
+    "uuid": "1531687f-6e59-4272-89bb-937eedd62f29",
+    "version": [0, 1, 1],
+    "min_engine_version": [1, 21, 130]
+  },
+  "modules": [
+    {
+      "description": "Resource module",
+      "type": "resources",
+      "uuid": "dd2c4302-219a-43fd-854d-73046193caae",
+      "version": [0, 1, 1]
+    }
+  ],
+  "metadata": {
+    "authors": ["Codex"],
+    "license": "MIT",
+    "generated_with": {
+      "codex": ["1.0.0"]
+    }
+  }
+}
