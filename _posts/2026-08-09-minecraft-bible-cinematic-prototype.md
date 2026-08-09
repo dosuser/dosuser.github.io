@@ -21,6 +21,18 @@ Bedrock Add-On, Minecraft 호환 스킨, 웹 기반 시네마틱 프리뷰, 야�
 </blockquote>
 
 <section>
+  <h2>GitHub 프로젝트와 재현 자료</h2>
+  <p>소스 코드, 정제된 대화 흐름, 프롬프트 히스토리, 작업일지, 검증 기록은 별도 GitHub 프로젝트에 공개했다. 원문 로그 전체를 그대로 올리지는 않고, 로컬 경로와 인증 정보가 섞이지 않도록 재현 가능한 공개 기록으로 정리했다.</p>
+  <ul class="asset-list">
+    <li><a href="https://github.com/dosuser/minecraft-bible-cinematic-prototype">GitHub 프로젝트</a><br>웹 게임, Bedrock Add-On, Godot 실험, 문서와 재현 자료</li>
+    <li><a href="https://github.com/dosuser/minecraft-bible-cinematic-prototype/blob/main/reproducibility/prompt-history.md">프롬프트 히스토리</a><br>요청 흐름과 재사용 가능한 프롬프트 템플릿</li>
+    <li><a href="https://github.com/dosuser/minecraft-bible-cinematic-prototype/blob/main/reproducibility/worklog.md">작업일지</a><br>단계별 구현 내용과 남은 일</li>
+    <li><a href="https://github.com/dosuser/minecraft-bible-cinematic-prototype/blob/main/reproducibility/reproduction-guide.md">재현 가이드</a><br>설치, 빌드, 실행, 검증 명령</li>
+    <li><a href="https://github.com/dosuser/minecraft-bible-cinematic-prototype/blob/main/reproducibility/verification.md">검증 기록</a><br>빌드와 브라우저 검증의 범위</li>
+  </ul>
+</section>
+
+<section>
   <h2>블로그에서 바로 실행</h2>
   <p>GitHub Pages 정적 파일만으로도 Three.js 웹 게임은 그대로 실행된다. 아래 플레이어를 클릭한 뒤 이동, 점프, 공격, 시네마 카메라 쇼케이스를 바로 확인할 수 있다.</p>
   <div class="game-embed" aria-label="Minecraft cinematic playable prototype">
