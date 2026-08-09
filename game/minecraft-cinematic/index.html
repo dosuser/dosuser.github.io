@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft Bible Cinematic Prototype</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <div class="hud" aria-label="Game status">
+        <div class="hud__brand">K-FOLLOW</div>
+        <div class="hud__metric">
+          <span>CORE</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="hud__metric">
+          <span>TIME</span>
+          <strong id="time">00</strong>
+        </div>
+      </div>
+
+      <div class="signal" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="camera-slate" aria-label="Camera shot">
+        <strong id="camera-shot-code">01/47</strong>
+        <span id="camera-shot-name">Establishing Crane</span>
+      </div>
+
+      <section class="story-panel" aria-label="Story progress">
+        <strong id="story-title">Arrive at the hillside</strong>
+        <span id="story-line">Walk toward the teacher on the hillside.</span>
+      </section>
+
+      <section class="dialogue-panel" aria-label="Dialogue" hidden>
+        <strong id="dialogue-speaker">Narrator</strong>
+        <span id="dialogue-line">A crowd gathers in the desert.</span>
+      </section>
+
+      <div class="touch-pad" aria-label="Touch controls">
+        <button type="button" data-control="up" aria-label="Move forward">&#9650;</button>
+        <button type="button" data-control="left" aria-label="Move left">&#9664;</button>
+        <button type="button" data-control="down" aria-label="Move back">&#9660;</button>
+        <button type="button" data-control="right" aria-label="Move right">&#9654;</button>
+      </div>
+
+      <div class="action-pad" aria-label="Action controls">
+        <button type="button" data-action="jump" aria-label="Jump">&#9651;</button>
+        <button type="button" data-action="attack" aria-label="Attack">&#9876;</button>
+      </div>
+
+      <p id="status" class="status" role="status" hidden></p>
+    </main>
+
+    <script type="module" src="./dist/app.js"></script>
+  </body>
+</html>

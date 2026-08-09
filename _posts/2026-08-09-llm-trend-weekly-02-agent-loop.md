@@ -3,7 +3,7 @@ layout: post
 title: "LLM 트렌드 2주 결산 2편 — Agent Loop: 루프 패턴의 진화 (2026-07-26 ~ 08-09)"
 date: 2026-08-09
 author: dosuser
-tags: [LLM, 에이전트루프, AgentLoop, ReAct, LangGraph, AgentOPSD, 강화학습, 2026]
+tags: [LLM, 에이전트루프, AgentLoop, ReAct, LangGraph, AgentOPSD, 강화학습, "2026"]
 ---
 
 > **시리즈**: LLM 에이전트 트렌드 2주 결산 (2026-07-26 ~ 2026-08-09)

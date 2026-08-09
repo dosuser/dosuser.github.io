@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "starter:k_follow_robot",
+      "min_engine_version": "1.21.0",
+      "materials": {
+        "default": "entity"
+      },
+      "textures": {
+        "default": "textures/entity/k_follow_robot"
+      },
+      "geometry": {
+        "default": "geometry.k_follow_robot"
+      },
+      "render_controllers": ["controller.render.k_follow_robot"],
+      "scripts": {
+        "scale": "0.85"
+      },
+      "spawn_egg": {
+        "base_color": "#f4f1e8",
+        "overlay_color": "#31a8dc"
+      }
+    }
+  }
+}

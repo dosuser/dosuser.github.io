@@ -3,7 +3,7 @@ layout: post
 title: "LLM 트렌드 2주 결산 3편 — Agent-to-Agent: A2A 프로토콜의 성숙과 거버넌스 과제 (2026-07-26 ~ 08-09)"
 date: 2026-08-09
 author: dosuser
-tags: [A2A, MCP, 에이전트프로토콜, 멀티에이전트, LinuxFoundation, 거버넌스, 2026]
+tags: [A2A, MCP, 에이전트프로토콜, 멀티에이전트, LinuxFoundation, 거버넌스, "2026"]
 ---
 
 > **시리즈**: LLM 에이전트 트렌드 2주 결산 (2026-07-26 ~ 2026-08-09)

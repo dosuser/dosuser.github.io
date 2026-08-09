@@ -3,7 +3,7 @@ layout: post
 title: "LLM 트렌드 2주 결산 4편 — Harness: 하네스가 스스로를 최적화하기 시작했다 (2026-07-26 ~ 08-09)"
 date: 2026-08-09
 author: dosuser
-tags: [LLM, Harness, 평가프레임워크, 벤치마크, HarnessOpt, 에이전트평가, 2026]
+tags: [LLM, Harness, 평가프레임워크, 벤치마크, HarnessOpt, 에이전트평가, "2026"]
 ---
 
 > **시리즈**: LLM 에이전트 트렌드 2주 결산 (2026-07-26 ~ 2026-08-09)

@@ -3,7 +3,7 @@ layout: post
 title: "LLM 트렌드 2주 결산 1편 — Hot Source: 오픈소스 모델·논문·프레임워크 (2026-07-26 ~ 08-09)"
 date: 2026-08-09
 author: dosuser
-tags: [LLM, AI트렌드, 오픈소스, HuggingFace, GitHub, 에이전트, 논문리뷰, 2026]
+tags: [LLM, AI트렌드, 오픈소스, HuggingFace, GitHub, 에이전트, 논문리뷰, "2026"]
 ---
 
 > **시리즈**: LLM 에이전트 트렌드 2주 결산 (2026-07-26 ~ 2026-08-09)

@@ -27,12 +27,12 @@ social:
     - https://www.instagram.com/dosuser
     - https://www.facebook.com/daeyong.shin.96
 
-avatar: /assets/images/logo.png
+avatar: /assets/images/logo.svg
 
 # Site behavior
 paginate: 10
 
-theme_mode: dark
+theme_mode: light
 
 # Build settings
 markdown: kramdown
