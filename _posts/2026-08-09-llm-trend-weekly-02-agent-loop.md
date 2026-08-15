@@ -3,6 +3,7 @@ layout: post
 title: "LLM 트렌드 2주 결산 2편 — Agent Loop: 루프 패턴의 진화 (2026-07-26 ~ 08-09)"
 date: 2026-08-09
 author: dosuser
+description: "ReAct 이후의 Agent Loop를 자기증류, 시간 추론, 실패 학습 관점에서 정리하고 2026년 주요 프레임워크 동향을 살펴봅니다."
 tags: [LLM, 에이전트루프, AgentLoop, ReAct, LangGraph, AgentOPSD, 강화학습, "2026"]
 ---
 

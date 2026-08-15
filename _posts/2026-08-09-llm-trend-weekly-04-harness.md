@@ -3,6 +3,7 @@ layout: post
 title: "LLM 트렌드 2주 결산 4편 — Harness: 하네스가 스스로를 최적화하기 시작했다 (2026-07-26 ~ 08-09)"
 date: 2026-08-09
 author: dosuser
+description: "LLM·AI 에이전트 평가를 위한 하네스와 벤치마크의 2026년 변화, 관리형 에이전트 하네스의 등장과 활용 포인트를 분석합니다."
 tags: [LLM, Harness, 평가프레임워크, 벤치마크, HarnessOpt, 에이전트평가, "2026"]
 ---
 

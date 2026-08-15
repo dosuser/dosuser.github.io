@@ -5,6 +5,7 @@ date: 2026-03-21 00:00:00 +0900
 categories: [NAS, Synology]
 tags: [synology, nas, nodejs, npm, docker, nvm, gemini, claude, dev/md0]
 author: SHIN DAE YONG
+description: "Synology NAS의 Node.js·npm 글로벌 패키지 설치 중 발생하는 /dev/md0 용량 부족과 Node 버전 문제를 진단하고 해결합니다."
 ---
 
 ## 배경

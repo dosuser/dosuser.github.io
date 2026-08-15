@@ -3,6 +3,7 @@ layout: post
 title: OpenClaw Dreaming - AI 가 스스로 기억을 정리하는 백그라운드 시스템
 date: 2026-04-19
 author: dosuser
+description: "OpenClaw Dreaming의 AI 메모리 통합 구조를 소개합니다. 단기 대화 맥락을 장기 기억으로 정리하는 백그라운드 자동화 시스템입니다."
 tags: [OpenClaw, AI, 메모리, Dreaming, 자동화, 개발자도구, 생산성, 인공지능]
 ---
 

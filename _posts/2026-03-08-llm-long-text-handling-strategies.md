@@ -5,6 +5,7 @@ date: 2026-03-08 15:30:00 +0900
 categories: [AI, LLM]
 tags: [llm, langchain, llamaindex, text-processing, chunking, vscode-copilot]
 author: SHIN DAE YONG
+description: "LLM의 긴 텍스트·긴 대화 처리 전략을 비교하고, VS Code Copilot 대화 요약 로직을 포팅하며 검토한 구현 선택지를 정리합니다."
 ---
 
 ## 배경: VS Code Copilot 대화 요약 기능 포팅
