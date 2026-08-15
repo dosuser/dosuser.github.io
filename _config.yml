@@ -38,7 +38,7 @@ theme_mode: light
 # Leave this empty until then: the Chirpy theme will not emit an analytics script.
 analytics:
   google:
-    id: ""
+    id: "G-E96G987ZLS"
 
 # Build settings
 markdown: kramdown
