@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://dosuser.github.io/sitemap.xml
+Sitemap: https://blog.dosuser.com/sitemap.xml
