@@ -1,8 +1,8 @@
 lang: ko-KR
 
 # Theme
-# if your site is deployed on https://<username>.github.io, leave `baseurl` blank.
-url: "https://dosuser.github.io"
+# Use the public custom domain consistently for canonical URLs and the sitemap.
+url: "https://blog.dosuser.com"
 baseurl: ""
 
 theme: jekyll-theme-chirpy
@@ -33,6 +33,12 @@ avatar: /assets/images/logo.svg
 paginate: 10
 
 theme_mode: light
+
+# Add the GA4 Measurement ID after creating a Web data stream in Google Analytics.
+# Leave this empty until then: the Chirpy theme will not emit an analytics script.
+analytics:
+  google:
+    id: ""
 
 # Build settings
 markdown: kramdown
