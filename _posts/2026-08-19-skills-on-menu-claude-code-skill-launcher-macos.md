@@ -39,11 +39,9 @@ SkillsOnMenu의 흐름은 다음처럼 짧다.
 
 스킬은 `SKILL.md`의 파라미터 표, `$ARGUMENTS`, 사용 예시를 읽어 입력 항목을 추론한다. 날짜·폴더처럼 실행 때마다 달라지는 값은 토큰으로 보관한다.
 
-| 토큰 | 실행 순간의 값 |
-|---|---|
-| `{{today}}`, `{{yesterday}}`, `{{tomorrow}}` | 현재 날짜 |
-| `{{weekAgo}}`, `{{monthAgo}}` | 7일 또는 30일 전 |
-| `{{home}}`, `{{downloads}}`, `{{documents}}` | 현재 Mac의 로컬 경로 |
+- `{{today}}`, `{{yesterday}}`, `{{tomorrow}}` — 현재 날짜
+- `{{weekAgo}}`, `{{monthAgo}}` — 7일 또는 30일 전
+- `{{home}}`, `{{downloads}}`, `{{documents}}` — 현재 Mac의 로컬 경로
 
 사람만 알 수 있는 검색어·티켓 번호가 남아 있으면 작은 입력 폼을 연다. 반대로 모든 값이 해결된 카드는 한 번 클릭해 바로 실행할 수 있다.
 
