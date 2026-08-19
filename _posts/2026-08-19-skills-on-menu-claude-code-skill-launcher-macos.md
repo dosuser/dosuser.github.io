@@ -55,11 +55,11 @@ SkillsOnMenu의 흐름은 다음처럼 짧다.
 
 ## 시작하기
 
-현재 소스와 설치 안내는 [GitHub 저장소](https://github.com/dosuser/skilldock)에서 확인할 수 있다. macOS 14 이상과 Claude Code CLI가 필요하다.
+현재 소스와 설치 안내는 [GitHub 저장소](https://github.com/dosuser/skills-on-menu)에서 확인할 수 있다. macOS 14 이상과 Claude Code CLI가 필요하다.
 
 ```sh
-git clone https://github.com/dosuser/skilldock
-cd skilldock
+git clone https://github.com/dosuser/skills-on-menu
+cd skills-on-menu
 ./build.sh
 open build/SkillsOnMenu.app
 ```
