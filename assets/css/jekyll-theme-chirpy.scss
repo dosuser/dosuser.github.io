@@ -8,6 +8,12 @@
 {%- endif -%}
 ';
 
+/* Loading placeholders should stay still; moving shimmer made long posts hard to read. */
+.shimmer::before {
+  animation: none !important;
+  content: none !important;
+}
+
 /* dosuser editorial skin: matched to the local Minecraft preview package. */
 
 :root {
