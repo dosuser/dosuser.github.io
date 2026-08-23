@@ -59,11 +59,11 @@ Mac 로그인
 Apple 문서에도 사용자 로그인 시 “**a per-user launchd is started**”라고 적혀 있다. 이어서 사용자 `Library/LaunchAgents`의 설정을 읽는다고 설명한다. ([Apple, Creating Launch Daemons and Agents](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html))
 
 {::nomarkdown}
-<a href="/assets/images/posts/ai-agent-runaway-incident-flow.svg" class="popup img-link">
+<a href="/assets/images/posts/ai-agent-runaway-incident-flow.svg?v=2026082319" class="popup img-link">
   <picture>
-    <source media="(max-width: 600px)" srcset="/assets/images/posts/ai-agent-runaway-incident-flow-mobile.svg">
+    <source media="(max-width: 600px)" srcset="/assets/images/posts/ai-agent-runaway-incident-flow-mobile.svg?v=2026082319">
     <img
-      src="/assets/images/posts/ai-agent-runaway-incident-flow.svg"
+      src="/assets/images/posts/ai-agent-runaway-incident-flow.svg?v=2026082319"
       alt="Hermes를 직접 열지 않았지만 로그인과 함께 자동으로 시작된 10분 예약 작업이 큰 컨텍스트를 반복해서 읽은 흐름"
       loading="lazy">
   </picture>
@@ -159,11 +159,11 @@ OpenAI도 Codex 사용량을 설명하면서 “**A long-running task can use su
 10분 배치가 모델을 직접 부르면 안 된다. 10분 작업은 새 후보가 생겼는지만 값싸게 확인하고 끝내야 한다.
 
 {::nomarkdown}
-<a href="/assets/images/posts/ai-agent-runaway-guardrails.svg" class="popup img-link">
+<a href="/assets/images/posts/ai-agent-runaway-guardrails.svg?v=2026082319" class="popup img-link">
   <picture>
-    <source media="(max-width: 600px)" srcset="/assets/images/posts/ai-agent-runaway-guardrails-mobile.svg">
+    <source media="(max-width: 600px)" srcset="/assets/images/posts/ai-agent-runaway-guardrails-mobile.svg?v=2026082319">
     <img
-      src="/assets/images/posts/ai-agent-runaway-guardrails.svg"
+      src="/assets/images/posts/ai-agent-runaway-guardrails.svg?v=2026082319"
       alt="10분 작업은 새 후보만 확인하고 큰 컨텍스트를 읽는 에이전트는 필요할 때 한 번만 실행하는 개선 흐름"
       loading="lazy">
   </picture>
