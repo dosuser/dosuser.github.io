@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930" role="img" aria-labelledby="title desc">
+  <title id="title">재발 방지: 프롬프트가 아니라 시스템이 멈춰야 한다</title>
+  <desc id="desc">사고 당시 무제한 실행 구조와 개선 후 사전 검사, 예산, 단일 실행, 실제 활동 추적, 회로 차단기, 사람 알림을 비교한 도표</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#64748b"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#dc2626"/></marker>
+    <style>
+      .bg{fill:#f8fafc}.titlebar{fill:#0f172a}.oldpanel{fill:#fff7f7;stroke:#dc2626;stroke-width:3}.newpanel{fill:#f7fbff;stroke:#2563eb;stroke-width:3}.old{fill:#fee2e2;stroke:#dc2626;stroke-width:2}.gate{fill:#dbeafe;stroke:#2563eb;stroke-width:2}.work{fill:#dcfce7;stroke:#16a34a;stroke-width:2}.decision{fill:#fef3c7;stroke:#d97706;stroke-width:3}.stop{fill:#ffedd5;stroke:#ea580c;stroke-width:3}.audit{fill:#f3e8ff;stroke:#9333ea;stroke-width:2}.bad{fill:#7f1d1d;stroke:#450a0a;stroke-width:3}.good{fill:#14532d;stroke:#052e16;stroke-width:3}.arrow{fill:none;stroke:#64748b;stroke-width:3;marker-end:url(#arrow)}.redarrow{fill:none;stroke:#dc2626;stroke-width:4;stroke-dasharray:10 8;marker-end:url(#arrow-red)}.t{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#0f172a;text-anchor:middle;font-size:23px}.small{font-size:18px;fill:#475569}.white{fill:#f8fafc}.strong{font-weight:700}.red{fill:#b91c1c}.green{fill:#166534}.edge{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#475569;text-anchor:middle;font-size:19px}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="930"/>
+  <rect class="titlebar" x="0" y="0" width="1600" height="82"/>
+  <text class="t white strong" x="800" y="53" font-size="34">재발 방지: 프롬프트가 아니라 시스템이 멈춰야 한다</text>
+
+  <rect class="oldpanel" x="45" y="115" width="610" height="660" rx="22"/>
+  <text class="t strong red" x="350" y="160" font-size="30">사고 당시</text>
+  <rect class="old" x="100" y="190" width="500" height="70" rx="14"/><text class="t" x="350" y="233">10분마다 조건 없이 시작</text>
+  <rect class="old" x="100" y="290" width="500" height="70" rx="14"/><text class="t" x="350" y="333">불완전한 작업 카드도 모델이 해석</text>
+  <rect class="old" x="100" y="390" width="500" height="70" rx="14"/><text class="t" x="350" y="433">자기 작업일지를 다음 입력으로 재사용</text>
+  <rect class="old" x="100" y="490" width="500" height="70" rx="14"/><text class="t" x="350" y="533">실제 활동과 상태 추적이 불일치</text>
+  <rect class="old" x="100" y="590" width="500" height="70" rx="14"/><text class="t" x="350" y="633">토큰 예산 · 연속 실패 차단기 없음</text>
+  <rect class="bad" x="145" y="690" width="410" height="62" rx="14"/><text class="t white strong" x="350" y="729">실패가 다음 실행을 부르는 무제한 루프</text>
+  <path class="arrow" d="M350 260 V290"/><path class="arrow" d="M350 360 V390"/><path class="arrow" d="M350 460 V490"/><path class="arrow" d="M350 560 V590"/><path class="arrow" d="M350 660 V690"/>
+  <path class="redarrow" d="M145 720 C60 690 60 230 100 225"/>
+
+  <path class="arrow" d="M655 445 H760"/><text class="edge strong" x="707" y="425">운영 계약을</text><text class="edge strong" x="707" y="450">코드로 강제</text>
+
+  <rect class="newpanel" x="760" y="115" width="795" height="660" rx="22"/>
+  <text class="t strong" x="1158" y="160" font-size="30" fill="#1d4ed8">개선된 실행 게이트</text>
+
+  <rect class="gate" x="805" y="195" width="215" height="100" rx="14"/>
+  <text class="t" x="912" y="232"><tspan class="strong" x="912">1. 사전 검사</tspan><tspan class="small" x="912" dy="30">스키마 · 후보 수</tspan></text>
+  <rect class="gate" x="1050" y="195" width="215" height="100" rx="14"/>
+  <text class="t" x="1157" y="232"><tspan class="strong" x="1157">2. 예산 검사</tspan><tspan class="small" x="1157" dy="30">토큰 · 시간 · 도구</tspan></text>
+  <rect class="gate" x="1295" y="195" width="215" height="100" rx="14"/>
+  <text class="t" x="1402" y="232"><tspan class="strong" x="1402">3. 단일 실행</tspan><tspan class="small" x="1402" dy="30">동일 작업 하나만</tspan></text>
+  <path class="arrow" d="M1020 245 H1050"/><path class="arrow" d="M1265 245 H1295"/>
+
+  <rect class="gate" x="805" y="350" width="215" height="100" rx="14"/>
+  <text class="t" x="912" y="387"><tspan class="strong" x="912">4. 실제 heartbeat</tspan><tspan class="small" x="912" dy="30">도구·출력으로 갱신</tspan></text>
+  <rect class="work" x="1050" y="350" width="215" height="100" rx="14"/>
+  <text class="t" x="1157" y="387"><tspan class="strong" x="1157">5. 격리 실행</tspan><tspan class="small" x="1157" dy="30">분석 → 패치 → 검증</tspan></text>
+  <polygon class="decision" points="1402,340 1505,400 1402,460 1299,400"/>
+  <text class="t" x="1402" y="389"><tspan class="strong" x="1402">6. 결과</tspan><tspan class="small" x="1402" dy="29">분류</tspan></text>
+  <path class="arrow" d="M1402 295 V320 H912 V350"/><path class="arrow" d="M1020 400 H1050"/><path class="arrow" d="M1265 400 H1299"/>
+
+  <rect class="stop" x="805" y="530" width="215" height="100" rx="14"/>
+  <text class="t" x="912" y="566"><tspan class="strong" x="912">후보 0건</tspan><tspan class="small" x="912" dy="30">사전 중단 + 사람 알림</tspan></text>
+  <rect class="work" x="1050" y="530" width="215" height="100" rx="14"/>
+  <text class="t" x="1157" y="566"><tspan class="strong" x="1157">검증 성공</tspan><tspan class="small" x="1157" dy="30">패치·테스트·한계 전달</tspan></text>
+  <rect class="stop" x="1295" y="530" width="215" height="100" rx="14"/>
+  <text class="t" x="1402" y="558"><tspan class="strong" x="1402">실패 분류</tspan><tspan class="small" x="1402" dy="27">timeout: 회차 종료</tspan><tspan class="small" x="1402" dy="25">quota·파일: 중단·알림</tspan></text>
+  <path class="redarrow" d="M912 295 C780 315 765 485 805 560"/>
+  <path class="arrow" d="M1360 451 C1280 500 1220 510 1157 530"/><path class="arrow" d="M1440 450 V500 H1402 V530"/>
+
+  <rect class="audit" x="835" y="675" width="645" height="70" rx="14"/>
+  <text class="t" x="1157" y="704"><tspan class="strong" x="1157">감사 로그</tspan><tspan class="small" x="1157" dy="27">생성자 · 변경자 · 예산 · 종료 이유</tspan></text>
+  <path class="arrow" d="M912 630 V650 H1157 V675"/><path class="arrow" d="M1157 630 V675"/><path class="arrow" d="M1402 630 V650 H1157 V675"/>
+
+  <rect class="good" x="270" y="820" width="1060" height="78" rx="18"/>
+  <text class="t white strong" x="800" y="853"><tspan x="800">일을 못 하면 안전하게 멈추고, 일을 했으면 검토 가능한 상태로 전달한다</tspan><tspan class="small white" x="800" dy="29">중단 조건 · 예산 · 완료 정의는 프롬프트가 아니라 실행 시스템의 책임이다</tspan></text>
+  <path class="arrow" d="M1157 745 V790 H800 V820"/>
+</svg>
